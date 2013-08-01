@@ -1,5 +1,5 @@
 @function phone-number-image-url($path) {
-  @return url("../local/iman-styles-common/local/phone-number/assets/#{$path}");
+  @return url("../components/iman-styles-phone-number/assets/#{$path}");
 }
 
 .phone-number {
@@ -30,5 +30,7 @@
     .no-csstransitions & {
       font-size: 14px;
     }
+  }
+}
   }
 }
