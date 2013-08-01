@@ -1,0 +1,12 @@
+{
+  "name": "phone-number",
+  "main": "index.scss",
+  "version": "0.0.1",
+  "dependencies": {},
+  "styles": [
+    "index.scss"
+  ],
+  "files": [
+    "assets/green_mobile.png"
+  ]
+}

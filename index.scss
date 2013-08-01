@@ -1,0 +1,34 @@
+@function phone-number-image-url($path) {
+  @return url("../local/iman-styles-common/local/phone-number/assets/#{$path}");
+}
+
+.phone-number {
+  @include improve-text-rendering;
+  background: phone-number-image-url('green_mobile.png') bottom left no-repeat;
+  color: $grey-dark;
+  font-size: 13px;
+  line-height: 18px;
+  padding: 12px 0 0 40px;
+  width: 280px;
+
+  .title {
+    color: $green;
+    font-size: size(4);
+    margin-bottom: 7px;
+  }
+
+  .phone {
+    float: left;
+    font-size: 12px;
+  }
+
+  .tel {
+    color: $grey-darkest;
+    font-size: 15px;
+    font-weight: bold;
+
+    .no-csstransitions & {
+      font-size: 14px;
+    }
+  }
+}
