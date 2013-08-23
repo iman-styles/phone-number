@@ -6,8 +6,6 @@
   "styles": [
     "index.scss"
   ],
-  "files": [
-    "assets/green_mobile.png"
-  ],
+  "files": [],
   "repo": "https://raw.github.com/iman-styles/phone-number"
 }
