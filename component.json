@@ -1,7 +1,7 @@
 {
   "name": "phone-number",
   "main": "index.scss",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "dependencies": {},
   "styles": [
     "index.scss"
